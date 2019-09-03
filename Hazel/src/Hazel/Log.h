@@ -27,7 +27,7 @@ namespace Hazel {
 #define HZ_CORE_ERROR(...) ::Hazel::Log::GetCoreLogger()->error(__VA_ARGS__)
 #define HZ_CORE_FATAL(...) ::Hazel::Log::GetCoreLogger()->fatal(__VA_ARGS__)
  
-//Clent log macrosGetClientLogger
+//Client log macros
 
 #define HZ_TRACE(...)      ::Hazel::Log::GetClientLogger()->trace(__VA_ARGS__)
 #define HZ_INFO(...)       ::Hazel::Log::GetClientLogger()->info(__VA_ARGS__)
