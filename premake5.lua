@@ -16,7 +16,7 @@ project "Hazel"
 	language "C++"
 
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
-	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
+	objdir ("bin/int/" .. outputdir .. "/%{prj.name}")
 
 	files
 	{
@@ -26,7 +26,9 @@ project "Hazel"
 
 	includedirs
 	{
-		"%{prj.name}/vendor/spdlog/include"
+		"%{prj.name}/src",
+		"%{prj.name}/vendor/spdlog/include",
+		"%{prj.name}/src/Hazel"
 	}
 
 	filter "system:windows"
