@@ -155,8 +155,8 @@
     <ClInclude Include="src\Hazel\Events\KeyEvent.h" />
     <ClInclude Include="src\Hazel\Events\MouseEvent.h" />
     <ClInclude Include="src\Hazel\Log.h" />
-    <ClInclude Include="src\Hazel\hzpch.h" />
     <ClInclude Include="src\Hazel\Window.h" />
+    <ClInclude Include="src\Hazel\hzpch.h" />
     <ClInclude Include="src\Platform\Windows\WindowsWindow.h" />
   </ItemGroup>
   <ItemGroup>
