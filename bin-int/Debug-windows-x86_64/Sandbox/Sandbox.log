@@ -5,14 +5,14 @@ E:\Project\gameEngine\Hazel\src\Hazel\Log.h(19,60): warning C4251:  “Hazel::Lo
 E:\Project\gameEngine\Hazel\vendor\spdlog\include\spdlog\details\registry.h(33): message :  参见“std::shared_ptr<spdlog::logger>”的声明
 E:\Project\gameEngine\Hazel\src\Hazel\Log.h(39,1): warning C4005:  “HZ_CORE_INFO”: 宏重定义
 E:\Project\gameEngine\Hazel\src\Hazel\Log.h(25): message :  参见“HZ_CORE_INFO”的前一个定义
-E:\Project\gameEngine\Hazel\src\Hazel\Application.h(16,35): warning C4251:  “Hazel::Application::m_Window”: class“std::unique_ptr<Hazel::Window,std::default_delete<_Ty>>”需要有 dll 接口由 class“Hazel::Application”的客户端使用
-E:\Project\gameEngine\Hazel\src\Hazel\Application.h(16,35): warning C4251:         with
-E:\Project\gameEngine\Hazel\src\Hazel\Application.h(16,35): warning C4251:         [
-E:\Project\gameEngine\Hazel\src\Hazel\Application.h(16,35): warning C4251:             _Ty=Hazel::Window
-E:\Project\gameEngine\Hazel\src\Hazel\Application.h(16,35): warning C4251:         ]
-E:\Project\gameEngine\Hazel\src\Hazel\Application.h(16): message :  参见“std::unique_ptr<Hazel::Window,std::default_delete<_Ty>>”的声明
-E:\Project\gameEngine\Hazel\src\Hazel\Application.h(16): message :         with
-E:\Project\gameEngine\Hazel\src\Hazel\Application.h(16): message :         [
-E:\Project\gameEngine\Hazel\src\Hazel\Application.h(16): message :             _Ty=Hazel::Window
-E:\Project\gameEngine\Hazel\src\Hazel\Application.h(16): message :         ]
+E:\Project\gameEngine\Hazel\src\Hazel\Application.h(21,35): warning C4251:  “Hazel::Application::m_Window”: class“std::unique_ptr<Hazel::Window,std::default_delete<_Ty>>”需要有 dll 接口由 class“Hazel::Application”的客户端使用
+E:\Project\gameEngine\Hazel\src\Hazel\Application.h(21,35): warning C4251:         with
+E:\Project\gameEngine\Hazel\src\Hazel\Application.h(21,35): warning C4251:         [
+E:\Project\gameEngine\Hazel\src\Hazel\Application.h(21,35): warning C4251:             _Ty=Hazel::Window
+E:\Project\gameEngine\Hazel\src\Hazel\Application.h(21,35): warning C4251:         ]
+E:\Project\gameEngine\Hazel\src\Hazel\Application.h(21): message :  参见“std::unique_ptr<Hazel::Window,std::default_delete<_Ty>>”的声明
+E:\Project\gameEngine\Hazel\src\Hazel\Application.h(21): message :         with
+E:\Project\gameEngine\Hazel\src\Hazel\Application.h(21): message :         [
+E:\Project\gameEngine\Hazel\src\Hazel\Application.h(21): message :             _Ty=Hazel::Window
+E:\Project\gameEngine\Hazel\src\Hazel\Application.h(21): message :         ]
   Sandbox.vcxproj -> E:\Project\gameEngine\Sandbox\..\bin\Debug-windows-x86_64\Sandbox\Sandbox.exe
