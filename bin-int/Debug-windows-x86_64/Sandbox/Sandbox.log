@@ -1,18 +1,41 @@
-﻿  Sandbox.cpp
-E:\Project\gameEngine\Hazel\src\Hazel\Log.h(18,55): warning C4251:  “Hazel::Log::s_CoreLogger”: class“std::shared_ptr<spdlog::logger>”需要有 dll 接口由 class“Hazel::Log”的客户端使用
-E:\Project\gameEngine\Hazel\vendor\spdlog\include\spdlog\details\registry.h(33): message :  参见“std::shared_ptr<spdlog::logger>”的声明
-E:\Project\gameEngine\Hazel\src\Hazel\Log.h(19,60): warning C4251:  “Hazel::Log::s_ClientLogger”: class“std::shared_ptr<spdlog::logger>”需要有 dll 接口由 class“Hazel::Log”的客户端使用
-E:\Project\gameEngine\Hazel\vendor\spdlog\include\spdlog\details\registry.h(33): message :  参见“std::shared_ptr<spdlog::logger>”的声明
-E:\Project\gameEngine\Hazel\src\Hazel\Log.h(39,1): warning C4005:  “HZ_CORE_INFO”: 宏重定义
-E:\Project\gameEngine\Hazel\src\Hazel\Log.h(25): message :  参见“HZ_CORE_INFO”的前一个定义
-E:\Project\gameEngine\Hazel\src\Hazel\Application.h(21,35): warning C4251:  “Hazel::Application::m_Window”: class“std::unique_ptr<Hazel::Window,std::default_delete<_Ty>>”需要有 dll 接口由 class“Hazel::Application”的客户端使用
-E:\Project\gameEngine\Hazel\src\Hazel\Application.h(21,35): warning C4251:         with
-E:\Project\gameEngine\Hazel\src\Hazel\Application.h(21,35): warning C4251:         [
-E:\Project\gameEngine\Hazel\src\Hazel\Application.h(21,35): warning C4251:             _Ty=Hazel::Window
-E:\Project\gameEngine\Hazel\src\Hazel\Application.h(21,35): warning C4251:         ]
-E:\Project\gameEngine\Hazel\src\Hazel\Application.h(21): message :  参见“std::unique_ptr<Hazel::Window,std::default_delete<_Ty>>”的声明
-E:\Project\gameEngine\Hazel\src\Hazel\Application.h(21): message :         with
-E:\Project\gameEngine\Hazel\src\Hazel\Application.h(21): message :         [
-E:\Project\gameEngine\Hazel\src\Hazel\Application.h(21): message :             _Ty=Hazel::Window
-E:\Project\gameEngine\Hazel\src\Hazel\Application.h(21): message :         ]
-  Sandbox.vcxproj -> E:\Project\gameEngine\Sandbox\..\bin\Debug-windows-x86_64\Sandbox\Sandbox.exe
+﻿  cl: 命令行 warning D9025 :正在重写“/MTd”(用“/MDd”)
+  Sandbox.cpp
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\Log.h(18,55): warning C4251:  “Hazel::Log::s_CoreLogger”: class“std::shared_ptr<spdlog::logger>”需要有 dll 接口由 class“Hazel::Log”的客户端使用
+C:\Users\jkl\source\repos\gameEngine\Hazel\vendor\spdlog\include\spdlog\details\registry.h(33): message :  参见“std::shared_ptr<spdlog::logger>”的声明
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\Log.h(19,60): warning C4251:  “Hazel::Log::s_ClientLogger”: class“std::shared_ptr<spdlog::logger>”需要有 dll 接口由 class“Hazel::Log”的客户端使用
+C:\Users\jkl\source\repos\gameEngine\Hazel\vendor\spdlog\include\spdlog\details\registry.h(33): message :  参见“std::shared_ptr<spdlog::logger>”的声明
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\Log.h(39,1): warning C4005:  “HZ_CORE_INFO”: 宏重定义
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\Log.h(25): message :  参见“HZ_CORE_INFO”的前一个定义
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\Layer.h(21,26): warning C4251:  “Hazel::Layer::m_DebugName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Hazel::Layer”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :  参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\LayerStack.h(24,31): warning C4251:  “Hazel::LayerStack::m_Layers”: class“std::vector<Hazel::Layer *,std::allocator<_Ty>>”需要有 dll 接口由 class“Hazel::LayerStack”的客户端使用
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\LayerStack.h(24,31): warning C4251:         with
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\LayerStack.h(24,31): warning C4251:         [
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\LayerStack.h(24,31): warning C4251:             _Ty=Hazel::Layer *
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\LayerStack.h(24,31): warning C4251:         ]
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\LayerStack.h(21): message :  参见“std::vector<Hazel::Layer *,std::allocator<_Ty>>”的声明
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\LayerStack.h(21): message :         with
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\LayerStack.h(21): message :         [
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\LayerStack.h(21): message :             _Ty=Hazel::Layer *
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\LayerStack.h(21): message :         ]
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\LayerStack.h(25,46): warning C4251:  “Hazel::LayerStack::m_LayerInsert”: class“std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>”需要有 dll 接口由 class“Hazel::LayerStack”的客户端使用
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\LayerStack.h(25,46): warning C4251:         with
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\LayerStack.h(25,46): warning C4251:         [
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\LayerStack.h(25,46): warning C4251:             _Ty=Hazel::Layer *
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\LayerStack.h(25,46): warning C4251:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(362): message :  参见“std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>”的声明
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(362): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(362): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(362): message :             _Ty=Hazel::Layer *
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(362): message :         ]
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\Application.h(27,35): warning C4251:  “Hazel::Application::m_Window”: class“std::unique_ptr<Hazel::Window,std::default_delete<_Ty>>”需要有 dll 接口由 class“Hazel::Application”的客户端使用
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\Application.h(27,35): warning C4251:         with
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\Application.h(27,35): warning C4251:         [
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\Application.h(27,35): warning C4251:             _Ty=Hazel::Window
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\Application.h(27,35): warning C4251:         ]
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\Application.h(27): message :  参见“std::unique_ptr<Hazel::Window,std::default_delete<_Ty>>”的声明
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\Application.h(27): message :         with
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\Application.h(27): message :         [
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\Application.h(27): message :             _Ty=Hazel::Window
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\Application.h(27): message :         ]
+  Sandbox.vcxproj -> C:\Users\jkl\source\repos\gameEngine\Sandbox\..\bin\Debug-windows-x86_64\Sandbox\Sandbox.exe
