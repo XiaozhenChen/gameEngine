@@ -1,8 +1,9 @@
-﻿  Application.cpp
-F:\Projects\Hazel\Hazel\src\Hazel\Log.h(18,55): warning C4251:  “Hazel::Log::s_CoreLogger”: class“std::shared_ptr<spdlog::logger>”需要有 dll 接口由 class“Hazel::Log”的客户端使用
-F:\Projects\Hazel\Hazel\vendor\spdlog\include\spdlog\details\registry.h(33): message :  参见“std::shared_ptr<spdlog::logger>”的声明
-F:\Projects\Hazel\Hazel\src\Hazel\Log.h(19,60): warning C4251:  “Hazel::Log::s_ClientLogger”: class“std::shared_ptr<spdlog::logger>”需要有 dll 接口由 class“Hazel::Log”的客户端使用
-F:\Projects\Hazel\Hazel\vendor\spdlog\include\spdlog\details\registry.h(33): message :  参见“std::shared_ptr<spdlog::logger>”的声明
-F:\Projects\Hazel\Hazel\src\Hazel\Log.h(39,1): warning C4005:  “HZ_CORE_INFO”: 宏重定义
-F:\Projects\Hazel\Hazel\src\Hazel\Log.h(25): message :  参见“HZ_CORE_INFO”的前一个定义
-  Hazel.vcxproj -> F:\Projects\Hazel\Hazel\..\bin\Debug-windows-x86_64\Hazel\Hazel.dll
+﻿  cl: 命令行 warning D9025 :正在重写“/MTd”(用“/MDd”)
+  WindowsWindow.cpp
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\Log.h(18,55): warning C4251:  “Hazel::Log::s_CoreLogger”: class“std::shared_ptr<spdlog::logger>”需要有 dll 接口由 class“Hazel::Log”的客户端使用
+C:\Users\jkl\source\repos\gameEngine\Hazel\vendor\spdlog\include\spdlog\details\registry.h(33): message :  参见“std::shared_ptr<spdlog::logger>”的声明
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\Log.h(19,60): warning C4251:  “Hazel::Log::s_ClientLogger”: class“std::shared_ptr<spdlog::logger>”需要有 dll 接口由 class“Hazel::Log”的客户端使用
+C:\Users\jkl\source\repos\gameEngine\Hazel\vendor\spdlog\include\spdlog\details\registry.h(33): message :  参见“std::shared_ptr<spdlog::logger>”的声明
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\Log.h(39,1): warning C4005:  “HZ_CORE_INFO”: 宏重定义
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\Log.h(25): message :  参见“HZ_CORE_INFO”的前一个定义
+  Hazel.vcxproj -> C:\Users\jkl\source\repos\gameEngine\Hazel\..\bin\Debug-windows-x86_64\Hazel\Hazel.dll
