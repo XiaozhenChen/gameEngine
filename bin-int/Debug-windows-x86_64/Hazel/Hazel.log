@@ -38,6 +38,11 @@ C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\Application.h(29): message 
 C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\Application.h(29): message :         [
 C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\Application.h(29): message :             _Ty=Hazel::Window
 C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\Application.h(29): message :         ]
-C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\ImGui\ImGuiLayer.cpp(65,80): warning C4244:  “参数”: 从“unsigned int”转换到“float”，可能丢失数据
-C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\ImGui\ImGuiLayer.cpp(65,51): warning C4244:  “参数”: 从“unsigned int”转换到“float”，可能丢失数据
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\ImGui\ImGuiLayer.cpp(69,80): warning C4244:  “参数”: 从“unsigned int”转换到“float”，可能丢失数据
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\ImGui\ImGuiLayer.cpp(69,51): warning C4244:  “参数”: 从“unsigned int”转换到“float”，可能丢失数据
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\ImGui\ImGuiLayer.cpp(164,52): warning C4244:  “参数”: 从“unsigned int”转换到“float”，可能丢失数据
+C:\Users\jkl\source\repos\gameEngine\Hazel\src\Hazel\ImGui\ImGuiLayer.cpp(164,37): warning C4244:  “参数”: 从“unsigned int”转换到“float”，可能丢失数据
+    正在创建库 ..\bin\Debug-windows-x86_64\Hazel\Hazel.lib 和对象 ..\bin\Debug-windows-x86_64\Hazel\Hazel.exp
+LINK : warning LNK4098: 默认库“LIBCMTD”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
   Hazel.vcxproj -> C:\Users\jkl\source\repos\gameEngine\Hazel\..\bin\Debug-windows-x86_64\Hazel\Hazel.dll
