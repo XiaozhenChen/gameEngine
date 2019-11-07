@@ -8,8 +8,11 @@
 #endif // HZ_BUILD_DLL                
 #else
 #error Hazal only supports Windows!
-
 #endif
+
+#ifdef HZ_DEBUG
+#define HZ_ENABLE_ASSERTS
+#endif // HZ_DEBUG
 
 #ifdef HZ_ENABLE_ASSERTS
 #define HZ_ASSERT(x, ...) { if(!(x)) { HZ_ERROR("Assertion Failed: {0}", __VA_ARGS__); __debugbreak(); } }
