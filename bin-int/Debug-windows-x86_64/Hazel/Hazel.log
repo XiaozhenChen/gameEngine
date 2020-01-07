@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿  Application.cpp
 E:\Projects\Hazel\Hazel\src\Hazel\Log.h(18,55): warning C4251: “Hazel::Log::s_CoreLogger”: class“std::shared_ptr<spdlog::logger>”需要有 dll 接口由 class“Hazel::Log”的客户端使用
 E:\Projects\Hazel\Hazel\vendor\spdlog\include\spdlog\details\registry.h(33): message : 参见“std::shared_ptr<spdlog::logger>”的声明
@@ -34,12 +35,16 @@ E:\Projects\Hazel\Hazel\src\Hazel\Log.h(19,60): warning C4251: “Hazel::Log::s_
 E:\Projects\Hazel\Hazel\vendor\spdlog\include\spdlog\details\registry.h(33): message : 参见“std::shared_ptr<spdlog::logger>”的声明
 E:\Projects\Hazel\Hazel\src\Hazel\Log.h(39,1): warning C4005: “HZ_CORE_INFO”: 宏重定义
 E:\Projects\Hazel\Hazel\src\Hazel\Log.h(25): message : 参见“HZ_CORE_INFO”的前一个定义
+=======
+﻿  ImGuiBuild.cpp
+>>>>>>> fix glfwGetWindowarea
 E:\Projects\Hazel\Hazel\vendor\imgui\examples\imgui_impl_opengl3.cpp(155,1): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : 参见“strcpy”的声明
 E:\Projects\Hazel\Hazel\vendor\imgui\examples\imgui_impl_opengl3.cpp(156,1): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(90): message : 参见“strcat”的声明
 E:\Projects\Hazel\Hazel\vendor\imgui\examples\imgui_impl_opengl3.cpp(458,1): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2263): message : 参见“sscanf”的声明
+<<<<<<< HEAD
   ImGuiLayer.cpp
 E:\Projects\Hazel\Hazel\vendor\imgui\examples\imgui_impl_glfw.cpp(728,9): error C3861: “glfwGetMonitorWorkarea”: 找不到标识符
 E:\Projects\Hazel\Hazel\src\Hazel\Log.h(18,55): warning C4251: “Hazel::Log::s_CoreLogger”: class“std::shared_ptr<spdlog::logger>”需要有 dll 接口由 class“Hazel::Log”的客户端使用
@@ -158,3 +163,8 @@ E:\Projects\Hazel\Hazel\vendor\spdlog\include\spdlog\details\registry.h(33): mes
 E:\Projects\Hazel\Hazel\src\Hazel\Log.h(39,1): warning C4005: “HZ_CORE_INFO”: 宏重定义
   正在生成代码...
 E:\Projects\Hazel\Hazel\src\Hazel\Log.h(25): message : 参见“HZ_CORE_INFO”的前一个定义
+=======
+E:\Projects\Hazel\Hazel\vendor\imgui\examples\imgui_impl_glfw.cpp(732): warning C4700: 使用了未初始化的局部变量“h”
+E:\Projects\Hazel\Hazel\vendor\imgui\examples\imgui_impl_glfw.cpp(732): warning C4700: 使用了未初始化的局部变量“w”
+  Hazel.vcxproj -> E:\Projects\Hazel\Hazel\..\bin\Debug-windows-x86_64\Hazel\Hazel.dll
+>>>>>>> fix glfwGetWindowarea
