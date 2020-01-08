@@ -1,2 +1,14 @@
-﻿  ImGuiLayer.cpp
+﻿  hzpch.cpp
+E:\Projects\Hazel\Hazel\src\Hazel\Log.h(39,1): warning C4005: “HZ_CORE_INFO”: 宏重定义
+E:\Projects\Hazel\Hazel\src\Hazel\Log.h(25): message : 参见“HZ_CORE_INFO”的前一个定义
+  Application.cpp
+  ImGuiBuild.cpp
+  ImGuiLayer.cpp
+  Layer.cpp
+  LayerStack.cpp
+  Log.cpp
+  OpenGLContext.cpp
+  WindowsInput.cpp
+  WindowsWindow.cpp
+  正在生成代码...
   Hazel.vcxproj -> E:\Projects\Hazel\Hazel\..\bin\Debug-windows-x86_64\Hazel\Hazel.lib
