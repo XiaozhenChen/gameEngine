@@ -1,10 +1,7 @@
 ﻿  Application.cpp
   ImGuiLayer.cpp
-  Buffer.cpp
-  OrthographicCamera.cpp
-  Renderer.cpp
-  Shader.cpp
-  VertexArray.cpp
+  Layer.cpp
+  LayerStack.cpp
   WindowsInput.cpp
   正在生成代码...
   Hazel.vcxproj -> E:\Projects\Hazel\Hazel\..\bin\Debug-windows-x86_64\Hazel\Hazel.lib
