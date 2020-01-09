@@ -1,26 +1,2 @@
-﻿  hzpch.cpp
-E:\Projects\Hazel\Hazel\src\Hazel\Log.h(38,1): warning C4005: “HZ_CORE_INFO”: 宏重定义
-E:\Projects\Hazel\Hazel\src\Hazel\Log.h(25): message : 参见“HZ_CORE_INFO”的前一个定义
-  Application.cpp
-  ImGuiBuild.cpp
-  ImGuiLayer.cpp
-  Layer.cpp
-  LayerStack.cpp
-  Log.cpp
-  Buffer.cpp
-  OrthographicCamera.cpp
-  RenderCommand.cpp
-  Renderer.cpp
-  RendererAPI.cpp
-  Shader.cpp
-  VertexArray.cpp
-  OpenGLBuffer.cpp
-  OpenGLContext.cpp
-  OpenGLRendererAPI.cpp
-  OpenGLShader.cpp
-  OpenGLVertexArray.cpp
-  WindowsInput.cpp
-  WindowsWindow.cpp
-  正在生成代码...
-E:\Projects\Hazel\Hazel\src\Platform\OpenGL\OpenGLVertexArray.cpp(66,32): warning C4312: “类型强制转换”: 从“const uint32_t”转换到更大的“const void *”
+﻿  OpenGLTexture.cpp
   Hazel.vcxproj -> E:\Projects\Hazel\Hazel\..\bin\Debug-windows-x86_64\Hazel\Hazel.lib
