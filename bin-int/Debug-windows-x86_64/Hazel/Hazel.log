@@ -1,2 +1,5 @@
-﻿  LayerStack.cpp
+﻿  VertexArray.cpp
+  OpenGLVertexArray.cpp
+  正在生成代码...
+E:\Projects\Hazel\Hazel\src\Platform\OpenGL\OpenGLVertexArray.cpp(71,59): warning C4267: “+=”: 从“size_t”转换到“uint32_t”，可能丢失数据
   Hazel.vcxproj -> E:\Projects\Hazel\Hazel\..\bin\Debug-windows-x86_64\Hazel\Hazel.lib
