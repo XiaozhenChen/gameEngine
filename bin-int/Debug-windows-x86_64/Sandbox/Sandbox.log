@@ -1,1 +1,8 @@
-﻿  Sandbox.vcxproj -> E:\Projects\Hazel\Sandbox\..\bin\Debug-windows-x86_64\Sandbox\Sandbox.exe
+﻿  Sandbox2D.cpp
+E:\Projects\Hazel\Hazel\src\Hazel\Core\Log.h(38,1): warning C4005: “HZ_CORE_INFO”: 宏重定义
+  SandboxApp.cpp
+E:\Projects\Hazel\Hazel\src\Hazel\Core\Log.h(25): message : 参见“HZ_CORE_INFO”的前一个定义
+E:\Projects\Hazel\Hazel\src\Hazel\Core\Log.h(38,1): warning C4005: “HZ_CORE_INFO”: 宏重定义
+  正在生成代码...
+E:\Projects\Hazel\Hazel\src\Hazel\Core\Log.h(25): message : 参见“HZ_CORE_INFO”的前一个定义
+  Sandbox.vcxproj -> E:\Projects\Hazel\Sandbox\..\bin\Debug-windows-x86_64\Sandbox\Sandbox.exe
