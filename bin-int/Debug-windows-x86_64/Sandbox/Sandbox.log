@@ -1,1 +1,12 @@
-﻿  Sandbox.vcxproj -> E:\Projects\Hazel\Sandbox\..\bin\Debug-windows-x86_64\Sandbox\Sandbox.exe
+﻿  Sandbox2D.cpp
+E:\Projects\Hazel\Hazel\src\Hazel\Core\Log.h(38,1): warning C4005: “HZ_CORE_INFO”: 宏重定义
+E:\Projects\Hazel\Hazel\src\Hazel\Core\Log.h(25): message : 参见“HZ_CORE_INFO”的前一个定义
+E:\Projects\Hazel\Sandbox\src\Sandbox2D.cpp(99,1): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : 参见“strcpy”的声明
+E:\Projects\Hazel\Sandbox\src\Sandbox2D.cpp(100,1): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  SandboxApp.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(90): message : 参见“strcat”的声明
+E:\Projects\Hazel\Hazel\src\Hazel\Core\Log.h(38,1): warning C4005: “HZ_CORE_INFO”: 宏重定义
+  正在生成代码...
+E:\Projects\Hazel\Hazel\src\Hazel\Core\Log.h(25): message : 参见“HZ_CORE_INFO”的前一个定义
+  Sandbox.vcxproj -> E:\Projects\Hazel\Sandbox\..\bin\Debug-windows-x86_64\Sandbox\Sandbox.exe
