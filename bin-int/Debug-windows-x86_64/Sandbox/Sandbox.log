@@ -1,4 +1,1 @@
-﻿  SandboxApp.cpp
-E:\Projects\Hazel\Hazel\src\Hazel\Log.h(38,1): warning C4005: “HZ_CORE_INFO”: 宏重定义
-E:\Projects\Hazel\Hazel\src\Hazel\Log.h(25): message : 参见“HZ_CORE_INFO”的前一个定义
-  Sandbox.vcxproj -> E:\Projects\Hazel\Sandbox\..\bin\Debug-windows-x86_64\Sandbox\Sandbox.exe
+﻿  Sandbox.vcxproj -> E:\Projects\Hazel\Sandbox\..\bin\Debug-windows-x86_64\Sandbox\Sandbox.exe
